@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/favicon-32x32.png">
+
+
+    <title>Base Apparel coming soon page</title>
+  </head>
+  <body onload='document.form1.text1.focus()'>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 order-xl-2">
+          <img src="images/hero-desktop.jpg" alt="hero image" id="imgHero">
+        </div>
+        <div class="col-xl-6 order-xl-1" id="left-cont">
+          <header>
+            <img src="images/logo.svg" alt="logo image">
+          </header>
+          <div class="">
+            <h1 > <span style="color:hsl(0, 36%, 70%);">WE'RE</span> COMING SOON</h1>
+            <p class="pe-lg-2">Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.</p>
+
+          </div>
+          <div class="container ps-1">
+            <div class="row">
+              <div class="col-md-12 py-2 ps-1">
+                <form class="" name="form1" action="#" id="myForm"  >
+                  <input type="text" name='text1' value="" class="rounded-pill" id="mailInput">
+                  <p id="para" class="ps-xl-4  mt-2"></p>
+                  <span id="errorImg">  </span>
+                  <button type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)" class="btn rounded-pill "> <img src="images/icon-arrow.svg" alt=""> </button>
+                </form>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="code.js">
+
+    </script>
+  </body>
+</html>
